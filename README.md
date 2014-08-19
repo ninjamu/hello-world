@@ -36,3 +36,11 @@ height="100" align="right" />There are around
  Antarctic. Many species undertake long distance 
  annual migrations, and many more perform shorter 
  irregular journeys.</p>
+ <figure>
+<img src="images/otters.jpg" alt="Photograph of 
+ two sea otters floating in water">
+<br />
+ <figcaption>Sea otters hold hands when they 
+ sleep so they don't drift away from each 
+ other.</figcaption>
+</figure>
