@@ -1,46 +1,34 @@
-<p><img src="images/bird.gif" alt="Bird" width="100" 
- height="100" align="top" />There are around 
-10,000 living species of birds that inhabit 
-different ecosystems from the Arctic to the 
-Antarctic. Many species undertake long distance 
-annual migrations, and many more perform shorter 
-irregular journeys.</p>
-<hr />
-<p><img src="images/bird.gif" alt="Bird" width="100" 
- height="100" align="middle" />There are around 
-10,000 living species of birds that inhabit 
-different ecosystems from the Arctic to the 
-Antarctic. Many species undertake long distance 
-annual migrations, and many more perform shorter 
-irregular journeys.</p>
-<hr />
-<p><img src="images/bird.gif" alt="Bird" width="100" 
- height="100" align="bottom" />There are around 
-10,000 living species of birds that inhabit 
-different ecosystems from the Arctic to the 
-Antarctic. Many species undertake long distance 
-annual migrations, and many more perform shorter 
-irregular journeys.</p>
-<p><img src="images/bird.gif" alt="Bird" width="100" 
-height="100" align="left" />There are around 
- 10,000 living species of birds that inhabit 
- different ecosystems from the Arctic to the 
- Antarctic. Many species undertake long distance 
- annual migrations, and many more perform shorter 
- irregular journeys.</p>
-<hr />
-<p><img src="images/bird.gif" alt="Bird" width="100" 
-height="100" align="right" />There are around 
- 10,000 living species of birds that inhabit 
- different ecosystems from the Arctic to the 
- Antarctic. Many species undertake long distance 
- annual migrations, and many more perform shorter 
- irregular journeys.</p>
- <figure>
-<img src="images/otters.jpg" alt="Photograph of 
- two sea otters floating in water">
-<br />
- <figcaption>Sea otters hold hands when they 
- sleep so they don't drift away from each 
- other.</figcaption>
-</figure>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Income</th>
+<th>Expenditure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>1st January</th>
+<td>250</td>
+<td>36</td>
+</tr>
+<tr>
+<th>2nd January</th>
+<td>285</td>
+<td>48</td>
+</tr>
+<!-- additional rows as above -->
+<tr>
+<th>31st January</th>
+<td>129</td>
+<td>64</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td></td>
+<td>7824</td>
+<td>1241</td>
+</tr>
+</tfoot>
+</table>
