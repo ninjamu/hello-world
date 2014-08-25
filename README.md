@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>Adding a Flash Video</title>
 <style>
 body {
 color: #665544;
