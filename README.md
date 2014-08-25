@@ -4,6 +4,8 @@
 <link  href="Untitled-1.css" type="text/css" rel="stylesheet" />
 <script src="http://html5shiv.googlecode.com/svn/
 trunk/html5.js"></script>
+
+<style>
 @font-face {
 font-family: 'QuicksandBook';
 src: url('fonts/Quicksand_Book-webfont.eot');
@@ -123,7 +125,6 @@ color: #de6581;}
 footer { 
 font-size: 80%; 
 padding: 7px 0px 0px 20px;}
-<style>
 </style>
 </head>
 <body>
