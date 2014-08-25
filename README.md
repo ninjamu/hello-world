@@ -1,10 +1,6 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <title>Adding a Flash Video</title>
-<link  href="Untitled-1.css" type="text/css" rel="stylesheet" />
-<script src="http://html5shiv.googlecode.com/svn/
-trunk/html5.js"></script>
-
 <style>
 @font-face {
 font-family: 'QuicksandBook';
