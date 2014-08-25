@@ -4,6 +4,127 @@
 <link  href="Untitled-1.css" type="text/css" rel="stylesheet" />
 <script src="http://html5shiv.googlecode.com/svn/
 trunk/html5.js"></script>
+@font-face {
+font-family: 'QuicksandBook';
+src: url('fonts/Quicksand_Book-webfont.eot');
+src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+font-weight: normal;
+font-style: normal;}
+body {
+color: #665544;
+background-color: #d4d0c6;
+background-image: url(image/bg.jpg);
+font-family: Georgia, "Times New Roman", serif;
+text-align: center;}
+.wrapper {
+width: 720px;
+margin: 0px auto;
+background:#CCFFFF;}
+.header1 {
+margin: 40px 0px 20px 0px;}
+.entry {
+width: 220px;
+float: left;
+margin: 10px;
+height: 198px;
+background-image: url("images/shadow.png");
+background-repeat: no-repeat;
+background-position: bottom;}
+figure {
+display: block;
+width: 202px;
+height: 170px;
+background-color: #e7e3d8;
+padding: 9px;
+text-align: left;}
+figure img {
+width: 200px;
+height: 150px;
+border: 1px solid #d6d6d6;}
+figcaption {
+background-image: url("images/icon.png");
+padding-left: 20px;
+background-repeat: no-repeat;}
+.menu
+{margin-top: 20px; color: #000000; float:left; margin-left: 0px; display:block;}
+.wrapper { 
+width: 940px; 
+margin: 120px auto 20px auto; 
+border: 2px solid #000000; 
+background-color: #FFFFFF} 
+header { 
+height: 160px; 
+background-image: url(images/header.jpg);} 
+h1 { 
+text-indent: -9999px; 
+width: 940px; 
+height: 130px; 
+margin: 0px;} 
+nav, footer { 
+clear: both; 
+color: #ffffff; 
+background-color: #aeaca8; 
+height: 30px;} 
+nav ul { 
+margin: 0px; 
+padding: 5px 0px 5px 30px;} 
+nav li { 
+display: inline; 
+margin-right: 40px;} 
+nav li a {
+color: #ffffff;} 
+nav li a:hover, nav li a.current { 
+color: #000000;} 
+section.courses { 
+float: left; 
+width: 659px; 
+border-right: 1px solid #eeeeee;} 
+article { 
+clear: both; 
+overflow: auto; 
+width: 100%;} 
+hgroup { 
+margin-top:40px;} 
+figure { 
+float: left; 
+width: 290px; 
+height: 220px; 
+padding: 5px; 
+margin: 20px; 
+border: 1px solid #eeeeee;} 
+figcaption { 
+font-size: 90%; 
+text-align: left;} 
+aside { 
+width: 230px; 
+float: left; 
+padding: 0px 0px 0px 20px;} 
+aside section a { 
+display: block; 
+padding: 10px; 
+border-bottom: 1px solid #eeeeee;} 
+aside section a:hover { 
+color: #985d6a; 
+background-color: #efefef;} 
+h1, h2, h3 { 
+font-weight: normal;} 
+h2 {
+margin: 10px 0px 5px 0px; 
+padding: 0px;} 
+h3 { 
+margin: 0px 0px 10px 0px; 
+color: #de6581;} 
+aside h2 { 
+padding: 30px 0px 10px 0px; 
+color: #de6581;} 
+footer { 
+font-size: 80%; 
+padding: 7px 0px 0px 20px;}
+<style>
+</style>
 </head>
 <body>
 <img src="image/logo.jpg" alt="Pedal Faster - The modern bicycle magazine" 
