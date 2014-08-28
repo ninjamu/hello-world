@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="dang thu nghiem">
+<title>Trang Chu</title>
+<meta name="viewport" content="width=device,initial-scale=1,maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/colors.css">
+</head>
+<body>
+	<div id="warpper">
+		<header id="header">
+			<div class="container">
+					<h1 id="logo">
+						<a href="#">
+							<img src="image/logo.png" alt="RED BUB COFFE" width="381" height="91">
+						</a>
+					</h1>
+					<nav id="main_menu" class="smooth_menu">
+						<ul id="menu_top_menu">
+							<li id="menu-item"><a href="trangchu.html" target="_bank">Home  </a></li>
+							<li id="menu-item"><a href="" target="_bank">About Us  </a></li>
+							<li id="menu-item"><a href="">Brewing Tips  </a></li>
+							<li id="menu-item"><a href="">Blog</a>  </li>
+							<li id="menu-item"><a href="">Contack Us  </a></li>
+						</ul>
+					</nav>
+			</div>
+		</header>
+		<div id="slideshow">
+			<div data-images="image/coffe.jpg"></div>
+			<div class="slider" style="position: relative; top:0px; left: 0px; overflow : hidden ; z-index : 1; -webkit-prespective : 1000px; -webkit-backface-visibility: hidden; width : 1349px; height : 405px; background-image: none ">
+				<div class="slider1" style="transform: matrix(1, 0, 0, 1, -2698, 0); position: relative; -webkit-perspective: 0; -webkit-backface-visibility: hidden; width: 2698px; cursor: -webkit-grab; -webkit-transform: matrix(1, 0, 0, 1, -2698, 0);">
+					<div class="item" style="transform: matrix(1, 0, 0, 1, 2698, 0); width: 1349px; -webkit-backface-visibility: hidden; position: absolute; top: 0px; -webkit-transform: matrix(1, 0, 0, 1, 2698, 0);">
+						<img src="image\coffee.jpg" alt="">
+					</div>
+					<div class="item" style="transform: matrix(1, 0, 0, 1, 1349, 0); width: 1349px; -webkit-backface-visibility: hidden; position: absolute; top: 0px; -webkit-transform: matrix(1, 0, 0, 1, 1349, 0);">
+						<img src="image\coffee1.jpg" alt="">
+					</div>
+				</div>
+				<div class="prev" style="cursor: pointer;">
+					<div class="btn">PREV</div>
+				</div>
+				<div class="next" style="cursor: pointer;">
+					<div class="btn">NEXT</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
