@@ -3,8 +3,7 @@ body{
 	font-size: 13px;
 	line-height: 21px;
 	color: #EEEEEE;
-	-webkit-font-smoothing:antialiased;
-	-webkit-text-size-adjust:100%;
+	height: 100%;
 }
 #top-line{
 	width: 100%;
@@ -67,10 +66,10 @@ a:hover {
 	background: #FF704D;
 }
 a:link{
-	color: white
+	color: white;
 }
 a:visited{
-	color: white
+	color: white;
 }
 a:active{
 	color: white;
@@ -84,15 +83,28 @@ a{
 	border: 0;
 	position: relative;
 }
-.slider{
-	background: url(image/coffe.jpg);
+#slideshow{
 }
 .slider .slider1 .item{
 	float: left;
+	width: 100%;
 	overflow: hidden;
 }
-.prev,.next{
-	opacity: .5;
+.slider .prev .btn,.slider .next .btn{
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	font-weight: 700;
+	padding: 0 4px;
+	line-height: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	opacity: 0;
+}
+.slider .prev .btn{
+	right: -20px;
+}
+.slider .prev,.slider .next{
 	position: absolute;
 	top: 50%;
 	margin-top: -25px;
@@ -100,20 +112,76 @@ a{
 	height: 50px;
 	z-index: 10;
 	background: url(image\controls.png) no-repeat center top;
+	opacity: .5;
 }
-.slider .prev .btn,.slider .next .btn{
-	background: rgba(0, 0, 0, 0.4);
-	color: #fff;
-	font-weight: 700;
-	display: inline-block;
-	padding: 0 4px;
-	line-height: 20px;
-	position: absolute;
-	top: 50%;
-	margin-top: -10px;
-	opacity: 0;
+.slider .next{
+	float: left;
+}
+.slider{
+	margin-top: none !important;
+}
+.hidden {
+	width: 100%;
+}
+#slideshow{
+	width: 100%;
+	height: 405px;
+}
+div#action {
+	padding: 20px 0;
+	margin-top: 2px;
+	background-color: #402C1B;
+	height: 30px;
+}
+.container1{
+	width: 100%;
+	height: 0;
+	margin-top: -20px;
+	display:  inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container2{
 
 }
-.prev{
-	left: 0;
+h4{
+	font-size: 22px;
+	margin-left: 100px;
+}
+div#content{
+	background-color: #f5f5f5;
+	color: #535353;
+	font-family: "Times New Roman", Times, serif;
+}
+.1{
+	font-size: 30px;
+}
+p{
+	font-size: 12px;
+}
+.body1{
+	width: 100%;
+	height: 100px;
+}
+.body2{
+	width: 1170px;
+	margin-left: 40px;
+	display: inline-block;
+}
+.span1{
+	width: 370px;
+	float: left;
+	margin-left: 20px;
+}
+span img{
+	width: 100%;
+	height: auto;
+}
+.footer1{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row{
+	margin-left: -30px;
 }
