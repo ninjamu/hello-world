@@ -86,9 +86,42 @@
 				<div class="row">
 					<div class="span1">
 						<h3 class="1">Quick Links</h3>
+						<div></div>
 						<ul id="menutop" class="menu">
-							
+							<li class="menuitem"><a href="home.html">Home</a></li>
+							<li class="menuitem"><a href="">About us</a></li>
+							<li class="menuitem"><a href="">Brewing Tips</a></li>
+							<li class="menuitem"><a href="">Blog</a></li>
+							<li class="menuitem"><a href="">Contact Us</a></li>
 						</ul>
+					</div>
+					<div class="span1">
+						<div class="gform">
+							<h3 class="1">Newsletter Sign Up</h3>
+							<div class="browser">
+								<form method="post" id="form" class="newsletter" action="">
+									<div class="formhead">
+										<span class="formspan">Sign up for our newsletter to receive exclusive discounts and offers!</span>
+									</div>
+									<div class="formbody">
+										<input name="input1" id="input" type="text" value="" class="input2" tabindex="1" placeholder="your.address@email.com">
+									</div>
+									<div class="submit">
+										<input type="submit" id="formsubmit" class="formsubmit1" value="Join Us" tabindex="2" onclick="">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="span1">
+						<div class="textcontact">
+							<h3 class="1">Contact Information</h3>
+							Red Bud Coffee<br>
+							1723 Our Address<br>
+							Orlando,FL 32822<br>
+							555-555-5555
+
+						</div>
 					</div>
 				</div>
 			</div>
