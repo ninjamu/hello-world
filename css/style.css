@@ -158,6 +158,7 @@ div#content{
 	background-color: #f5f5f5;
 	color: #535353;
 	font-family: "Times New Roman", Times, serif;
+	display: block;
 }
 .1{
 	font-size: 30px;
@@ -171,7 +172,8 @@ p{
 }
 .body2{
 	width: 1170px;
-	margin-left: 80px;
+	margin-left: 100px;
+	margin-right: 80px;
 	display: inline-block;
 }
 .span1{
@@ -181,7 +183,6 @@ p{
 }
 span img{
 	width: 100%;
-	height: auto;
 }
 .footer1{
 	width: 1170px;
@@ -190,6 +191,7 @@ span img{
 }
 .row{
 	margin-left: -30px;
+	margin-right: 30px;
 }
 #footer{
 	height: 150px;
@@ -211,6 +213,7 @@ span img{
 li{
 	line-height: 20px;
 	display: list-item;
+	padding-left: 10px;
 }
 .2{
 	font-size: 14px;
@@ -262,4 +265,39 @@ h1{
 }
 p{
 	font-size: 15px;
+}
+div#date{
+	display: inline-block;
+	background-color: #330000;
+}
+span#img1{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+span#img2{
+	float: right;
+	height: 150px;
+	width: 150px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+span#img3 .img3{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+span#img4 {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+div.page1{
+	border-top: solid;
 }
