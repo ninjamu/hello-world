@@ -340,3 +340,6 @@ textarea#message{
 .submit-form{
 	margin-bottom: 20px;
 }
+div.form{
+	border-top: solid;
+}
