@@ -261,7 +261,7 @@ h1{
 	font-size: 15px;
 }
 .rowus{
-	margin-left: 30px;
+	margin-left: 0px;
 }
 p{
 	font-size: 15px;
@@ -300,4 +300,43 @@ span#img4 {
 }
 div.page1{
 	border-top: solid;
+}
+#input{
+	width: 95%;
+	border: 0;
+	font-weight: 700;
+	font-size: 13px;
+	height: 30px;
+	padding: 0px 0px 0 0px !important;
+	border-radius: 3px;
+}
+span.firt-name{
+	width: 50%;
+	float: left;
+}
+span.last-name{
+	width: 50%;
+	float: right;
+}
+#input1 {
+	width: 47%;
+	border: 0;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 13px;
+	height: 30px;
+	padding: 0px 0px 0 0px !important;
+	border-radius: 3px;
+}
+textarea#message{
+	width: 100%;
+	border: 0;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 13px;
+	padding: 0px 0px 0 0px !important;
+	border-radius: 3px;
+}
+.submit-form{
+	margin-bottom: 20px;
 }
