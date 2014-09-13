@@ -87,6 +87,7 @@ a{
 	position: relative;
 }
 #slideshow{
+	height: 205px;
 }
 .slider .slider1 .item{
 	float: left;
@@ -130,6 +131,10 @@ a{
 	width: 100%;
 	height: 405px;
 }
+#slideshow1{
+	width: 100%;
+	height: 205px;
+}
 div#action {
 	padding: 20px 0;
 	margin-top: 1px;
@@ -162,7 +167,7 @@ p{
 }
 .body1{
 	width: 100%;
-	height: 100px;
+	height: 80px;
 }
 .body2{
 	width: 1170px;
@@ -189,6 +194,7 @@ span img{
 #footer{
 	height: 150px;
 	background-color: #402C1B;
+	color: white;
 }
 .footer1 {
 	display: block;
@@ -238,4 +244,22 @@ li{
 	height: 30px;
 	padding: 0px 0px 0 0px !important;
 	border-radius: 3px;
+}
+h1{
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	margin-top: -50px;
+}
+.row1{
+	border-bottom: solid;
+}
+.row2{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+}
+.rowus{
+	margin-left: 30px;
+}
+p{
+	font-size: 15px;
 }
